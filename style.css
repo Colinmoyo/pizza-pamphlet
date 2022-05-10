@@ -40,13 +40,15 @@ body {
 
 .contact_us {
     background-color: turquoise;
-    /* border: 1px solid; */
+    /* border: 0.5px solid; */
     padding: 0.5em;
     margin: 1em;
     border-radius: 1em;
-    /* width: 90%; */
+    width: 90%;
     font-weight: bolder;
     margin-left: 0;
+    text-align: left;
+    display: inline-flex;
 
 }
 
@@ -71,4 +73,5 @@ h1 {
     background-color: red;
 }
 }
-    
+.address {text-align: center;
+margin-left: 50%;}
